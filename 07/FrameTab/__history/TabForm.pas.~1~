@@ -4,14 +4,13 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  Frame2u, Frame3u, StdCtrls, ComCtrls, Vcl.Tabs;
+  Frame2u, Frame3u, StdCtrls, ComCtrls;
 
 type
   TForm1 = class(TForm)
     Button1: TButton;
     Button2: TButton;
     Tab: TTabControl;
-    TabSet1: TTabSet;
     procedure TabChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
