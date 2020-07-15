@@ -41,7 +41,7 @@ begin
   Form.BorderStyle := bsNone;
   Form.Align := alClient;
   Form.Parent := Sheet;
-  Form.Visible := True;
+  Form. Visible := True;
   // activate and set title
   PageControl1.ActivePage := Sheet;
   Sheet.Caption := Form.Caption;
